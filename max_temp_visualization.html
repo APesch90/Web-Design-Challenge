@@ -35,7 +35,7 @@
                 </ul>
               </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Comparison</a>
+            <a class="nav-link" href="comparisons_page.html">Comparison</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="data_page.html">Data</a>
@@ -51,30 +51,40 @@
     <!-- First Row -->
     <div class="row">
       <!-- First column - gray background-->
-      <div class="col-md-12">
-          <div class="box">
-              <h1 class="summary">Comparison: Latitude vs. X</h1>
-              <hr class="ruler">
-              <p class="paragraph_text">Click any plot to get an in-depth analysis.</p>
-              <div class="container images">
-                <div class="container">
-                  <div class="row row-cols-auto">
-                    <div class="col-md-6">
-                      <h4 class="image_caption">vs. Max Temperature</h4>
-                      <a href="max_temp_visualization.html" target="_blank"> <img src="../Visualizations/Fig1.png" class="img-fluid center-block" alt="Responsive image"></a>
-                      <h4 class="image_caption">vs. Cloudiness </h4>
-                      <a href="cloudiness_visualization.html" target="_blank"> <img src="../Visualizations/Fig3.png" class="img-fluid center-block" alt="Responsive image"></a>
-                    </div>
-                    <div class="col-md-6">
-                      <h4 class="image_caption">vs. Humidity </h4>
-                      <a href="humidity_visualization.html" target="_blank"> <img src="../Visualizations/Fig2.png" class="img-fluid center-block" alt="Responsive image"></a>
-                      <h4 class="image_caption">vs. Wind Speed </h4>
-                      <a href="wind_speed_visualization.html" target="_blank"> <img src="../Visualizations/Fig4.png" class="img-fluid center-block" alt="Responsive image"></a>
+      <div class="col-md-8">
+        <div class="box">
+            <h3 class="summary">Max Temperature</h3>
+            <hr class="ruler">
+            <div class="container images">
+              <div class="container">
+                <div class="row row-cols-auto">
+                  <div class="col-md-12">
+                    <a href="max_temp_visualization.html" target="_blank"> <img src="Visualizations/Fig1.png" class="img-fluid center-block" alt="Responsive image"></a>
+                    <p class="paragraph_text">For the Northern Hemisphere cities, the trend is that as the city latitude increases from the equator (further north the city is), the lower the max temperature.  For the Southern Hemisphere cities, the trend is that as the city latitude increases from the equator (further south the city is), the lower the max temperature. Overall, the closer a city's latitude is to the equator, the warmer the maximum temperature.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      <div class="col-md-4 box_right">
+        <div class="box box_right">
+          <h4 class="summary">Visualizations</h4>
+          <hr class="ruler">
+          <div class="container images">
+            <div class="container">
+              <div class="row row-cols-auto">
+                <div class="col-md-6">
+                  <a href="max_temp_visualization.html"> <img src="Visualizations/Fig1.png" id="Fig" class="img-fluid center-block" alt="Responsive image"></a>
+                  <a href="cloudiness_visualization.html"> <img src="Visualizations/Fig3.png" class="img-fluid center-block" alt="Responsive image"></a>
+                </div>
+                <div class="col-md-6">
+                  <a href="humidity_visualization.html"> <img src="Visualizations/Fig2.png" class="img-fluid center-block" alt="Responsive image"></a>
+                  <a href="wind_speed_visualization.html"> <img src="Visualizations/Fig4.png" class="img-fluid center-block" alt="Responsive image"></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
